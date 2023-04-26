@@ -24,7 +24,6 @@
 /************************************************************************/
 
 #define LED_PIO           PIOC                 // periferico que controla o LED
-// # (1)
 #define LED_PIO_ID        ID_PIOC              // ID do periférico PIOC (controla LED)
 #define LED_PIO_IDX       8                    // ID do LED no PIO
 #define LED_IDX_MASK  (1 << LED_PIO_IDX)   // Mascara para CONTROLARMOS o LED
